@@ -80,6 +80,13 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     implementation("com.google.firebase:firebase-storage-ktx:20.3.0")
 
+    // Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Gson
+    implementation ("com.google.code.gson:gson:2.10")
+
     // Room components
     implementation("androidx.room:room-runtime:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
@@ -88,11 +95,14 @@ dependencies {
     // Runtime Compose
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
 
-    // Splash API(
+    // Splash API
     implementation("androidx.core:core-splashscreen:1.0.1")
 
-    // Mongo DB Realm
+    // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // Mongo DB Realm
     implementation("io.realm.kotlin:library-sync:1.12.0")
 
     // Dagger Hilt
