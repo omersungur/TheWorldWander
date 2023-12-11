@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
 class CountryRepositoryImpl @Inject constructor(
-    private val countryApi: CountryApi
+    private val countryApi: CountryApi,
 ): CountryRepository {
 
     override suspend fun getAllCountries(): Flow<Resource<List<Country>>> {

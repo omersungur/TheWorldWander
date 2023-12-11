@@ -2,6 +2,7 @@ package com.omersungur.theworldwander.di
 
 import com.omersungur.theworldwander.data.remote.CountryApi
 import com.omersungur.theworldwander.data.repository.CountryRepositoryImpl
+import com.omersungur.theworldwander.domain.model.Country
 import com.omersungur.theworldwander.domain.repository.CountryRepository
 import dagger.Module
 import dagger.Provides
@@ -18,5 +19,4 @@ object AppModule {
     fun provideRepository(countryApi: CountryApi): CountryRepository {
         return CountryRepositoryImpl(countryApi)
     }
-
 }
