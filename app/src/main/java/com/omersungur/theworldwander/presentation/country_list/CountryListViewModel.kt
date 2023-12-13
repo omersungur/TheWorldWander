@@ -6,14 +6,14 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.omersungur.theworldwander.core.Resource
-import com.omersungur.theworldwander.domain.repository.CountryRepository
+import com.omersungur.theworldwander.domain.use_case.CountryUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 class CountryListViewModel @Inject constructor(
-    private val countryRepository: CountryRepository
+    private val countryUseCases: CountryUseCases
 ) : ViewModel() {
 
     var state by mutableStateOf(CountryListState())
@@ -37,7 +37,7 @@ class CountryListViewModel @Inject constructor(
 
     fun getAllCountries() {
         viewModelScope.launch {
-            countryRepository.getAllCountries().collect { result ->
+            countryUseCases.getCountries().collect { result ->
                 state = when (result) {
                     is Resource.Success -> {
                         state.copy(countryList = result.data ?: emptyList())

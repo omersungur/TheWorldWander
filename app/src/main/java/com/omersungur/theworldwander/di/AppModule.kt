@@ -2,8 +2,9 @@ package com.omersungur.theworldwander.di
 
 import com.omersungur.theworldwander.data.remote.CountryApi
 import com.omersungur.theworldwander.data.repository.CountryRepositoryImpl
-import com.omersungur.theworldwander.domain.model.Country
 import com.omersungur.theworldwander.domain.repository.CountryRepository
+import com.omersungur.theworldwander.domain.use_case.CountryUseCases
+import com.omersungur.theworldwander.domain.use_case.GetCountries
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -18,5 +19,15 @@ object AppModule {
     @Singleton
     fun provideRepository(countryApi: CountryApi): CountryRepository {
         return CountryRepositoryImpl(countryApi)
+    }
+
+    @Provides
+    @Singleton
+    fun provideUseCases(
+        countryRepository: CountryRepository,
+    ): CountryUseCases {
+        return CountryUseCases(
+           getCountries = GetCountries(countryRepository)
+        )
     }
 }
