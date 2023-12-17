@@ -27,7 +27,7 @@ fun CountryContent(
     ) {
         items(items = countries) { country ->
             CountryRow(country = country)
-            Spacer(modifier = Modifier.height(25.dp))
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }
