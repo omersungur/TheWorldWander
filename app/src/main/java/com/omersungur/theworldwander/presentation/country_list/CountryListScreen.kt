@@ -4,6 +4,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.omersungur.theworldwander.presentation.country_list.components.CountryContent
+import com.omersungur.theworldwander.presentation.country_list.components.CustomProgressBar
 
 @Composable
 fun CountryListScreen(
@@ -19,9 +20,16 @@ fun CountryListScreen(
 //    }
 
     Scaffold(content = {
+
+        if (state.isLoading) {
+            CustomProgressBar()
+        }
+
         CountryContent(
             paddingValues = it,
-            countries = state.countryList)
+            countries = state.countryList
+        )
+
     })
 }
 

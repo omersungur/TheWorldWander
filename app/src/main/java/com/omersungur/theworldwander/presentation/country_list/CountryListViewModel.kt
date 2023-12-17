@@ -35,12 +35,15 @@ class CountryListViewModel @Inject constructor(
         }
     }
 
-    fun getAllCountries() {
+    private fun getAllCountries() {
         viewModelScope.launch {
             countryUseCases.getCountries().collect { result ->
                 state = when (result) {
                     is Resource.Success -> {
-                        state.copy(countryList = result.data ?: emptyList())
+                        state.copy(
+                            countryList = result.data ?: emptyList(),
+                            isLoading = false
+                        )
                     }
 
                     is Resource.Error -> {

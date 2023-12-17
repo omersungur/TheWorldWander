@@ -11,7 +11,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.compose.foundation.lazy.items
 import com.omersungur.theworldwander.domain.model.Country
 
 @Composable

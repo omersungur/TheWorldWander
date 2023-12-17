@@ -12,6 +12,7 @@ fun CountryDtoItem.toCountry(): Country {
 
     return Country(
         name = name,
+        flag = flags.png,
         currencies = currency,
         language = language,
         region = region,
