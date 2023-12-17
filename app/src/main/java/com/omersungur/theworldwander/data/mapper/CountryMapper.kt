@@ -16,6 +16,7 @@ fun CountryDtoItem.toCountry(): Country {
         currencies = currency,
         language = language,
         region = region,
+        population = population,
         latitude = latitude,
         longitude = longitude,
         area = area ?: 0.0,

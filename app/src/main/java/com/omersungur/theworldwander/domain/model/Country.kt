@@ -4,6 +4,7 @@ data class Country(
     val name: String?,
     val flag: String?,
     val currencies: String?,
+    val population: Int?,
     val language: String,
     val region: String?,
     val latitude: Double?,
