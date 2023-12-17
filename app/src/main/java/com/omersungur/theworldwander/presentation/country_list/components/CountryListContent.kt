@@ -16,7 +16,8 @@ import com.omersungur.theworldwander.domain.model.Country
 @Composable
 fun CountryContent(
     paddingValues: PaddingValues,
-    countries: List<Country>
+    countries: List<Country>,
+    onItemClicked: (String) -> Unit
 ) {
     LazyColumn(
         modifier = Modifier
@@ -26,7 +27,10 @@ fun CountryContent(
             .padding(top = paddingValues.calculateTopPadding())
     ) {
         items(items = countries) { country ->
-            CountryRow(country = country)
+            CountryRow(
+                country = country,
+                onItemClicked = onItemClicked
+            )
             Spacer(modifier = Modifier.height(16.dp))
         }
     }

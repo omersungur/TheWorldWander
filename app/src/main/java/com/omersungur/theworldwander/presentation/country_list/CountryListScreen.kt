@@ -11,6 +11,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavHostController
+import com.omersungur.theworldwander.presentation.Screen
 import com.omersungur.theworldwander.presentation.base.DisplayAlertDialog
 import com.omersungur.theworldwander.presentation.country_list.components.CountryContent
 import com.omersungur.theworldwander.presentation.country_list.components.CountryListTopBar
@@ -20,6 +22,7 @@ import com.omersungur.theworldwander.presentation.country_list.components.Custom
 @Composable
 fun CountryListScreen(
     countryListViewModel: CountryListViewModel = hiltViewModel(),
+    navController: NavHostController
 ) {
     val state = countryListViewModel.state
     val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
@@ -34,15 +37,19 @@ fun CountryListScreen(
             )
         },
 
-
-        content = {
+        content = { paddingValues ->
             if (state.isLoading) {
                 CustomProgressBar()
             }
 
             CountryContent(
-                paddingValues = it,
-                countries = state.countryList
+                paddingValues = paddingValues,
+                countries = state.countryList,
+                onItemClicked = {
+                    navController.popBackStack()
+                    navController.navigate(Screen.CountryListScreen.passCountryId(it))
+                    println("Ülke infosu geçildi $it")
+                }
             )
 
             DisplayAlertDialog(
@@ -52,7 +59,6 @@ fun CountryListScreen(
                 onDialogClosed = { openDialog = false }) {
                 // TODO: SIGN OUT
             }
-
         })
 }
 
