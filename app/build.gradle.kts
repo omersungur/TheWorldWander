@@ -5,8 +5,9 @@ plugins {
     id("dagger.hilt.android.plugin")
     id("io.realm.kotlin")
     id("org.jlleitschuh.gradle.ktlint") version "11.6.1"
+    id("com.google.gms.google-services")
     // id("kotlin-kapt")
-    // id("com.google.gms.google-services")
+
 }
 
 android {
@@ -15,7 +16,7 @@ android {
 
     defaultConfig {
         applicationId = "com.omersungur.theworldwander"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -119,6 +120,19 @@ dependencies {
     // One-Tap Compose
     implementation("com.github.stevdza-san:OneTapCompose:1.0.7")
 
+    // Swipe Refresh
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.27.0")
+
+    // Data Store
+    implementation ("androidx.datastore:datastore-preferences:1.1.0-alpha07")
+
+    // Material
+    implementation("androidx.compose.material:material:1.5.4")
+    implementation("androidx.compose.material:material-icons-extended-android:1.5.4")
+
     // Desugar JDK
     // coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+
+    // Google Maps
+    implementation ("com.google.maps.android:maps-compose:4.3.0")
 }
