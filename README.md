@@ -4,13 +4,13 @@
 <p align="center">
   
 </p>
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/aaee2d68-8c62-4c56-9772-a4dae9c1f5d6" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/327a45b0-fbc4-4c53-8a08-e2e5ff3f301f" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/3a0f178d-a54b-40c6-8c65-a54dd3af04cd" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/ae74c540-bf3a-407b-9e2a-384911a6a3fc" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/8ba6f5c6-ad05-4cbd-a814-c0705882bdce" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/0eec5328-6976-4d9a-a5f5-d899727f1834" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/d9ee3418-0608-487a-9130-f84d28375ab4" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/aaee2d68-8c62-4c56-9772-a4dae9c1f5d6" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/327a45b0-fbc4-4c53-8a08-e2e5ff3f301f" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/3a0f178d-a54b-40c6-8c65-a54dd3af04cd" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/ae74c540-bf3a-407b-9e2a-384911a6a3fc" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/8ba6f5c6-ad05-4cbd-a814-c0705882bdce" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/0eec5328-6976-4d9a-a5f5-d899727f1834" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/d9ee3418-0608-487a-9130-f84d28375ab4" alt="Screenshot_1694509493" width="300" height="auto">
 <br>
 
 ## :point_down: Structures Used
