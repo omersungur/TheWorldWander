@@ -94,10 +94,10 @@ object CountryMongoRepositoryImpl : CountryMongoRepository {
             realm.write {
                 val countries = this.query<CountryMongo>("ownerId == $0", user.id).find()
                 try {
-//                    countries.map {
-//                        delete(it.images)
-//                    }
-                    delete(countries) // delete all countries info.
+                    countries.map {
+                        delete(it.images)
+                    }
+                    // delete(countries) // delete all countries info.
                     Resource.Success(data = true)
                 } catch (e: Exception) {
                     Resource.Error(e.toString())
