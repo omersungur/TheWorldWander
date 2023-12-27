@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936890598010",
+    "project_id": "theworldwander",
+    "storage_bucket": "theworldwander.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936890598010:android:d8946da3ba63e30af131c3",
+        "android_client_info": {
+          "package_name": "com.omersungur.theworldwander"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936890598010-npto9631o04518u0vo0bgp33cvvfbb1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO6fgUvVGnz2pMN0Rir5gzAeUHbPZ-euM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936890598010-npto9631o04518u0vo0bgp33cvvfbb1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
