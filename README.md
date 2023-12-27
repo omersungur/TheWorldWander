@@ -13,9 +13,10 @@
 <img src="https://github.com/omersungur/TheWorldWander/assets/70448538/d9ee3418-0608-487a-9130-f84d28375ab4" alt="Screenshot_1694509493" width="300" height="auto">
 <br>
 
-Mongo DB schema and one sample data: <br>
-<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/a01cf6a5-6f57-4a38-b9dc-5e92912187ea" alt="Screenshot_1694509493" width="300" height="auto">
+Mongo DB schema and one sample data: <be>
 <img src="https://github.com/omersungur/TheWorldWander/assets/70448538/4fe2286a-1ca2-4d26-b157-939e86df361a" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/TheWorldWander/assets/70448538/a01cf6a5-6f57-4a38-b9dc-5e92912187ea" alt="Screenshot_1694509493" width="300" height="auto">
+
 
 ## :point_down: Structures Used
 - MVVM + Clean Architecture
