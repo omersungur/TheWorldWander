@@ -15,7 +15,7 @@ class CountryRepositoryImpl @Inject constructor(
 
     override suspend fun getAllCountries(): Flow<Resource<List<Country>>> {
         return flow {
-            emit(Resource.Loading(true))
+            emit(Resource.Loading(isLoading = true))
             val countries = countryApi.getAllCountries()
             emit(Resource.Success(countries.map {
                 it.toCountry()
