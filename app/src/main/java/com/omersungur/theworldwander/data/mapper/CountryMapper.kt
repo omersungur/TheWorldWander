@@ -19,7 +19,12 @@ fun CountryDtoItem.toCountry(): Country {
         population = population,
         latitude = latitude,
         longitude = longitude,
-        area = area ?: 0.0,
-        independent = independent ?: false
+        area = area,
+        independent = independent,
+        capital = capital,
+        timeZone = timezones,
+        callingCode = callingCodes,
+        code = alpha2Code,
+        borders = borders
     )
 }
