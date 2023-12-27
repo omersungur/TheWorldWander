@@ -16,8 +16,9 @@
 
 ## 🎬 Video
 https://drive.google.com/file/d/1g2bDZujeIsJud_21nwBg55louXEMIeyF
+<br>
 
-Mongo DB schema and one sample data: <br> <br>
+## Mongo DB schema and one sample data: <br> <br>
 <img src="https://github.com/omersungur/TheWorldWander/assets/70448538/4fe2286a-1ca2-4d26-b157-939e86df361a" alt="Screenshot_1694509493" width="300" height="auto">
 <img src="https://github.com/omersungur/TheWorldWander/assets/70448538/a01cf6a5-6f57-4a38-b9dc-5e92912187ea" alt="Screenshot_1694509493" width="300" height="auto">
 
