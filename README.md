@@ -4,13 +4,13 @@
 <p align="center">
   
 </p>
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/8bf9d6bc-43d7-41fd-93f8-d95eb7ca52d6" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/a7b52010-75cb-4db1-861c-19be499b91ec" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/96bf23e9-580f-4e1c-83fc-49f5d9a113d2" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/814d5476-3dab-495f-8f71-8cad2bbf3618" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/d83ba193-510f-4603-a41e-ae27dc565a2e" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/55ead85d-43fa-4351-8742-a26a9f5dbc88" alt="Screenshot_1694509493" width="300" height="auto">
-<img src="https://github.com/omersungur/To-Do-App/assets/70448538/7dcda734-6fb3-4bb6-b795-8dcd22d4b6d2" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/aaee2d68-8c62-4c56-9772-a4dae9c1f5d6" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/327a45b0-fbc4-4c53-8a08-e2e5ff3f301f" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/3a0f178d-a54b-40c6-8c65-a54dd3af04cd" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/ae74c540-bf3a-407b-9e2a-384911a6a3fc" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/8ba6f5c6-ad05-4cbd-a814-c0705882bdce" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/0eec5328-6976-4d9a-a5f5-d899727f1834" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/d9ee3418-0608-487a-9130-f84d28375ab4" alt="Screenshot_1694509493" width="300" height="auto">
 <br>
 
 ## :point_down: Structures Used
