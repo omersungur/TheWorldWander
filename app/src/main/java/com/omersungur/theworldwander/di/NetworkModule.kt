@@ -46,7 +46,7 @@ object NetworkModule {
     fun provideHttpClient(): OkHttpClient {
         return OkHttpClient.Builder()
             .readTimeout(15, TimeUnit.SECONDS)
-            .connectTimeout(15, TimeUnit.SECONDS) // HTTP isteği gönderilirken, sunucuya bağlanma işlemi için geçen süreyi belirtir.
+            .connectTimeout(15, TimeUnit.SECONDS)
             .build()
     }
 }
