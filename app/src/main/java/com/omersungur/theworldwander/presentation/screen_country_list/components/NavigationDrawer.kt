@@ -41,7 +41,7 @@ fun NavigationDrawer(
                     Image(
                         modifier = Modifier.height(250.dp),
                         painter = painterResource(id = R.drawable.world),
-                        contentDescription = "Google Logo"
+                        contentDescription = "World Image"
                     )
                 }
                 NavigationDrawerItem(
@@ -52,7 +52,7 @@ fun NavigationDrawer(
                                 contentDescription = "Delete Icon"
                             )
                             Spacer(modifier = Modifier.width(12.dp))
-                            Text(text = "Delete All Diaries")
+                            Text(text = "Delete All Images")
                         }
                     },
                     selected = false,
