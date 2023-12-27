@@ -4,14 +4,13 @@
 <p align="center">
   
 </p>
-![1](https://github.com/omersungur/TheWorldWander/assets/70448538/8bf9d6bc-43d7-41fd-93f8-d95eb7ca52d6)
-![2](https://github.com/omersungur/TheWorldWander/assets/70448538/a7b52010-75cb-4db1-861c-19be499b91ec)
-![5](https://github.com/omersungur/TheWorldWander/assets/70448538/96bf23e9-580f-4e1c-83fc-49f5d9a113d2)
-![3](https://github.com/omersungur/TheWorldWander/assets/70448538/814d5476-3dab-495f-8f71-8cad2bbf3618)
-![4](https://github.com/omersungur/TheWorldWander/assets/70448538/d83ba193-510f-4603-a41e-ae27dc565a2e)
-![6](https://github.com/omersungur/TheWorldWander/assets/70448538/55ead85d-43fa-4351-8742-a26a9f5dbc88)
-![7](https://github.com/omersungur/TheWorldWander/assets/70448538/7dcda734-6fb3-4bb6-b795-8dcd22d4b6d2)
-
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/8bf9d6bc-43d7-41fd-93f8-d95eb7ca52d6" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/a7b52010-75cb-4db1-861c-19be499b91ec" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/96bf23e9-580f-4e1c-83fc-49f5d9a113d2" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/814d5476-3dab-495f-8f71-8cad2bbf3618" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/d83ba193-510f-4603-a41e-ae27dc565a2e" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/55ead85d-43fa-4351-8742-a26a9f5dbc88" alt="Screenshot_1694509493" width="300" height="auto">
+<img src="https://github.com/omersungur/To-Do-App/assets/70448538/7dcda734-6fb3-4bb6-b795-8dcd22d4b6d2" alt="Screenshot_1694509493" width="300" height="auto">
 <br>
 
 ## :point_down: Structures Used
