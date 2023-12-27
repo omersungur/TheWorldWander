@@ -1,4 +1,4 @@
-package com.omersungur.theworldwander.presentation.country_list
+package com.omersungur.theworldwander.presentation.screen_country_list
 
 sealed class CountryListEvent {
     data object RefreshPage: CountryListEvent()

@@ -1,6 +1,7 @@
-package com.omersungur.theworldwander.presentation.country_list.components
+package com.omersungur.theworldwander.presentation.screen_country_list.components
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Logout
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -15,17 +16,27 @@ import androidx.compose.runtime.Composable
 @Composable
 fun CountryListTopBar(
     scrollBehavior: TopAppBarScrollBehavior,
-    onLogOutClick: () -> Unit
+    onMenuClicked: () -> Unit,
+    onLogOutClick: () -> Unit,
 ) {
     TopAppBar(
         scrollBehavior = scrollBehavior,
         title = {
             Text(text = "Countries")
         },
+        navigationIcon = {
+            IconButton(onClick = onMenuClicked) {
+                Icon(
+                    imageVector = Icons.Default.Menu,
+                    contentDescription = "Hamburger Menu Icon",
+                    tint = MaterialTheme.colorScheme.onSurface
+                )
+            }
+        },
         actions = {
             IconButton(onClick = onLogOutClick) {
                 Icon(
-                    imageVector = Icons.Default.Menu,
+                    imageVector = Icons.Default.Logout,
                     contentDescription = "Hamburger Menu Icon",
                     tint = MaterialTheme.colorScheme.onSurface
                 )
