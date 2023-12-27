@@ -5,11 +5,16 @@ data class Country(
     val flag: String?,
     val currencies: String?,
     val population: Int?,
-    val language: String,
+    val language: String?,
     val region: String?,
     val latitude: Double?,
     val longitude: Double,
     val area: Double?,
-    val independent: Boolean?
+    val independent: Boolean?,
+    val capital: String?,
+    val timeZone: List<String>?,
+    val callingCode: List<String>?,
+    val code: String?,
+    val borders: List<String>?
 )
 
