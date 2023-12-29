@@ -31,6 +31,8 @@ https://drive.google.com/file/d/1g2bDZujeIsJud_21nwBg55louXEMIeyF
 - Room
 - Compose Navigation
 - Retrofit
+- Coroutines
+- Flow
 - Gson
 - Dagger Hilt
 - Coil
@@ -40,7 +42,6 @@ https://drive.google.com/file/d/1g2bDZujeIsJud_21nwBg55louXEMIeyF
 - Data Store
 - Material
 - Google Maps
-- Coroutines
 
 ## :pencil2: Dependency
 
@@ -53,7 +54,6 @@ plugins {
     id("com.google.devtools.ksp")
     id("dagger.hilt.android.plugin")
     id("io.realm.kotlin")
-    id("org.jlleitschuh.gradle.ktlint") version "11.6.1"
     id("com.google.gms.google-services")
 }
 ```
